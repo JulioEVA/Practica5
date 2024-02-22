@@ -49,7 +49,7 @@ class MenuActivity : AppCompatActivity() {
 
         btnDrinks.setOnClickListener {
             var intent : Intent = Intent(this, ProductosActivity::class.java)
-            intent.putExtra("menuType", "Sopas")
+            intent.putExtra("menuType", "Drinks")
             startActivity(intent)
         }
     }
